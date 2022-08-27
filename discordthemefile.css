@@ -1156,16 +1156,6 @@ body .cozy-VmLDNB .header-2jRmjb,
   margin-bottom: 10px;
   padding-left: 0;
 }
-body .cozy-VmLDNB .messageContent-2t3eCI:not(:empty):not(.repliedTextContent-2hOYMB):not(.threadMessageAccessoryContent-1HTTUq),
-#app-mount .cozy-VmLDNB .messageContent-2t3eCI:not(:empty):not(.repliedTextContent-2hOYMB):not(.threadMessageAccessoryContent-1HTTUq) {
-  display: var(--chat-bubble-display);
-  margin: 0;
-  background: var(--chat-bubble-bg);
-  padding: var(--chat-bubble-padding);
-  border-radius: 6px;
-  overflow: visible;
-  max-width: 100%;
-}
 body .cozy-VmLDNB .messageContent-2t3eCI:not(:empty):not(.repliedTextContent-2hOYMB):not(.threadMessageAccessoryContent-1HTTUq) code,
 #app-mount .cozy-VmLDNB .messageContent-2t3eCI:not(:empty):not(.repliedTextContent-2hOYMB):not(.threadMessageAccessoryContent-1HTTUq) code {
   background: rgba(255, 255, 255, 0.03);
@@ -1201,10 +1191,6 @@ body .cozy-VmLDNB.mentioned-Tre-dv .messageContent-2t3eCI:not(:empty):not(.repli
   background: var(--background-mentioned);
   box-shadow: inset 2px 0 0 var(--info-warning-foreground);
   border-radius: 0 6px 6px 0;
-}
-body .cozy-VmLDNB[data-is-author-self=true] .messageContent-2t3eCI:not(:empty):not(.repliedTextContent-2hOYMB):not(.threadMessageAccessoryContent-1HTTUq),
-#app-mount .cozy-VmLDNB[data-is-author-self=true] .messageContent-2t3eCI:not(:empty):not(.repliedTextContent-2hOYMB):not(.threadMessageAccessoryContent-1HTTUq) {
-  background: var(--chat-bubble-bg-self);
 }
 body .cozy-VmLDNB.selected-2LX7Jy:not(.replying-eZ7p5z), body .cozy-VmLDNB:not(.replying-eZ7p5z):hover,
 #app-mount .cozy-VmLDNB.selected-2LX7Jy:not(.replying-eZ7p5z),
