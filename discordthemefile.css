@@ -21,9 +21,9 @@
   --bg-primary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .05));
   --bg-secondary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .1));
   --bg-tertiary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .15));
-  --chat-bubble-bg: rgba(255, 255, 255, 3);
+  --chat-bubble-bg: rgba(255, 255, 255, 0);
   --chat-bubble-bg-self: rgb(var(--accent), 0.15);
-  --chat-bubble-padding: 5px 7px;
+  --chat-bubble-padding: 3px 3px;
   --chat-bubble-display: inline-block;
   --user-area: calc(var(--server-size) + 175px);
   --toolbar-height: 74px;
